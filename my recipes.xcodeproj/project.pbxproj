@@ -13,9 +13,16 @@
 		DCBA17381BE4B74900115CB2 /* my_recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17361BE4B74900115CB2 /* my_recipes.xcdatamodeld */; };
 		DCBA173A1BE4B74900115CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBA17391BE4B74900115CB2 /* Assets.xcassets */; };
 		DCBA173D1BE4B74900115CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBA173B1BE4B74900115CB2 /* LaunchScreen.storyboard */; };
+		DCBA17461BE4B79800115CB2 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17441BE4B79800115CB2 /* Recipe+CoreDataProperties.swift */; };
+		DCBA17471BE4B79800115CB2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17451BE4B79800115CB2 /* Recipe.swift */; };
+		DCBA174C1BE4C62200115CB2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA174B1BE4C62200115CB2 /* RecipeCell.swift */; };
+		DCBA174E1BE4CA5400115CB2 /* AddRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA174D1BE4CA5400115CB2 /* AddRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCAA0E041BEDF51100AE2092 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DCAA0E051BEDF51200AE2092 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DCAA0E071BEDF51F00AE2092 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		DCBA172C1BE4B74900115CB2 /* my recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBA172F1BE4B74900115CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCBA17311BE4B74900115CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		DCBA17391BE4B74900115CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBA173C1BE4B74900115CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBA173E1BE4B74900115CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBA17441BE4B79800115CB2 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DCBA17451BE4B79800115CB2 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		DCBA174B1BE4C62200115CB2 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		DCBA174D1BE4CA5400115CB2 /* AddRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,9 @@
 		DCBA172E1BE4B74900115CB2 /* my recipes */ = {
 			isa = PBXGroup;
 			children = (
+				DCBA174A1BE4C60C00115CB2 /* view */,
+				DCBA17491BE4C60700115CB2 /* controller */,
+				DCBA17481BE4C5FE00115CB2 /* model */,
 				DCBA172F1BE4B74900115CB2 /* AppDelegate.swift */,
 				DCBA17311BE4B74900115CB2 /* ViewController.swift */,
 				DCBA17331BE4B74900115CB2 /* Main.storyboard */,
@@ -65,6 +79,31 @@
 				DCBA17361BE4B74900115CB2 /* my_recipes.xcdatamodeld */,
 			);
 			path = "my recipes";
+			sourceTree = "<group>";
+		};
+		DCBA17481BE4C5FE00115CB2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA17441BE4B79800115CB2 /* Recipe+CoreDataProperties.swift */,
+				DCBA17451BE4B79800115CB2 /* Recipe.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DCBA17491BE4C60700115CB2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA174D1BE4CA5400115CB2 /* AddRecipeVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		DCBA174A1BE4C60C00115CB2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA174B1BE4C62200115CB2 /* RecipeCell.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBA17321BE4B74900115CB2 /* ViewController.swift in Sources */,
+				DCBA17461BE4B79800115CB2 /* Recipe+CoreDataProperties.swift in Sources */,
+				DCBA174E1BE4CA5400115CB2 /* AddRecipeVC.swift in Sources */,
 				DCBA17301BE4B74900115CB2 /* AppDelegate.swift in Sources */,
+				DCBA174C1BE4C62200115CB2 /* RecipeCell.swift in Sources */,
 				DCBA17381BE4B74900115CB2 /* my_recipes.xcdatamodeld in Sources */,
+				DCBA17471BE4B79800115CB2 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +194,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DCBA17341BE4B74900115CB2 /* Base */,
+				DCAA0E041BEDF51100AE2092 /* fr */,
+				DCAA0E071BEDF51F00AE2092 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +204,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DCBA173C1BE4B74900115CB2 /* Base */,
+				DCAA0E051BEDF51200AE2092 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -290,6 +336,7 @@
 				DCBA17431BE4B74900115CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Ingredients"; ObjectID = "Ly6-mu-Vf0"; */
+"Ly6-mu-Vf0.placeholder" = "Ingredients";
+
+/* Class = "UITextField"; placeholder = "Steps"; ObjectID = "ifw-eE-mLi"; */
+"ifw-eE-mLi.placeholder" = "Steps";
+
+/* Class = "UILabel"; text = "Titre"; ObjectID = "lC8-NU-Gjc"; */
+"lC8-NU-Gjc.text" = "Titre";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "nMH-b6-YUr"; */
+"nMH-b6-YUr.placeholder" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rTR-Qc-1Lb"; */
+"rTR-Qc-1Lb.normalTitle" = "Button";
